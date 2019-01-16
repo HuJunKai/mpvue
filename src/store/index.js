@@ -12,7 +12,8 @@ Vue.use(Vuex);
 // 设置状态
 const state = {
   isAuthenticated: false,
-  user: null
+  user: null,
+  openid:'',
 };
 
 export default new Vuex.Store({
